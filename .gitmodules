@@ -1,0 +1,9 @@
+[submodule "bundle/command-t"]
+	path = bundle/command-t
+	url = git://git.wincent.com/command-t.git
+[submodule "bundle/vim-figutive"]
+	path = bundle/vim-figutive
+	url = git://github.com/tpope/vim-fugitive.git
+[submodule "bundle/vim-pathogen"]
+	path = bundle/vim-pathogen
+	url = git://github.com/tpope/vim-pathogen.git
