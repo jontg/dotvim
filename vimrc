@@ -13,10 +13,10 @@ call pathogen#helptags()
 ":set syntax=adamg 
 "syntax enable
 "set background=dark
-"colorscheme solarized
+colorscheme solarized
 
 " toggle between .cpp and .h
-map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
+"map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
 " set buffers to be hidden, so that modify in parallel
 set hidden
 " map toggle between the open buffers to F3
