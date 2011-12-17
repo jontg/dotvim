@@ -25,6 +25,9 @@ let mapleader = ","
 " Adding command 'M' to for highliting
 highlight myHighlightGroup ctermbg=darkgreen guibg=darkgreen
 command -nargs=1 M mat myHighlightGroup /\c<args>/
+nnoremap <leader><space> :noh<cr>
 
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+set undodir=~/.vim-tmp/undo,~/.tmp/undo,~/tmp/undo,/var/tmp/undo,/tmp/undo
+set undofile

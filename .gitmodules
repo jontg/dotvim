@@ -7,3 +7,12 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = git://github.com/tpope/vim-pathogen.git
+[submodule "bundle/nerd-commenter"]
+	path = bundle/nerd-commenter
+	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/nerd-tree"]
+	path = bundle/nerd-tree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
