@@ -31,5 +31,6 @@ but I am starting to getting into [Tim Pope][]'s [Pathogen][].  If you
 recognize any code snippets that are not properly accredited, please
 ping me.
 
+[tauceti]: https://github.com/tauceti
 [tim pope]: https://github.com/tpope
 [pathogen]: https://github.com/tpope/vim-pathogen
