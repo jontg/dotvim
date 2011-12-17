@@ -3,7 +3,7 @@
 "
 "#####################################################################
 
-runtime bundle/vim-pathogen/autoload/pathogen.vim
+runtime bundle/pathogen/autoload/pathogen.vim
 call pathogen#infect()
 call pathogen#helptags()
 
@@ -11,6 +11,9 @@ call pathogen#helptags()
 :source $HOME/.vim/autofile.vim
 :source $HOME/.vim/mappings.vim
 ":set syntax=adamg 
+"syntax enable
+"set background=dark
+"colorscheme solarized
 
 " toggle between .cpp and .h
 map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
@@ -27,7 +30,7 @@ highlight myHighlightGroup ctermbg=darkgreen guibg=darkgreen
 command -nargs=1 M mat myHighlightGroup /\c<args>/
 nnoremap <leader><space> :noh<cr>
 
-set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-set undodir=~/.vim-tmp/undo,~/.tmp/undo,~/tmp/undo,/var/tmp/undo,/tmp/undo
+set backupdir=~/.vim/backup
+set directory=~/.vim/backup
+set undodir=~/.vim/backup
 set undofile

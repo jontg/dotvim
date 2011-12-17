@@ -2,12 +2,12 @@
 	path = bundle/command-t
 	url = git://git.wincent.com/command-t.git
         ignore = untracked
-[submodule "bundle/vim-figutive"]
-	path = bundle/vim-figutive
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
 	url = git://github.com/tpope/vim-fugitive.git
         ignore = untracked
-[submodule "bundle/vim-pathogen"]
-	path = bundle/vim-pathogen
+[submodule "bundle/pathogen"]
+	path = bundle/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
         ignore = untracked
 [submodule "bundle/nerd-commenter"]
@@ -18,19 +18,25 @@
 	path = bundle/nerd-tree
 	url = git://github.com/scrooloose/nerdtree.git
         ignore = untracked
-[submodule "bundle/vim-surround"]
-	path = bundle/vim-surround
+[submodule "bundle/surround"]
+	path = bundle/surround
 	url = git://github.com/tpope/vim-surround.git
         ignore = untracked
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = git://github.com/msanders/snipmate.vim.git
         ignore = untracked
-[submodule "bundle/vim-ack"]
-	path = bundle/vim-ack
+[submodule "bundle/ack.vim"]
+	path = bundle/ack.vim
 	url = git://github.com/mileszs/ack.vim.git
         ignore = untracked
-[submodule "bundle/vim-yankring"]
-	path = bundle/vim-yankring
+[submodule "bundle/yankring"]
+	path = bundle/yankring
 	url = git://github.com/vim-scripts/YankRing.vim.git
         ignore = untracked
+[submodule "bundle/colors-solarized"]
+	path = bundle/colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/gundo"]
+	path = bundle/gundo
+	url = git://github.com/sjl/gundo.vim.git
