@@ -20,3 +20,6 @@
 	path = bundle/snipmate
 	url = git://github.com/msanders/snipmate.vim.git
         ignore = untracked
+[submodule "bundle/vim-ack"]
+	path = bundle/vim-ack
+	url = git://github.com/mileszs/ack.vim.git
