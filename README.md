@@ -19,6 +19,14 @@ Switch to the `~/.vim` directory, and fetch submodules:
 	git submodule init
 	git submodule update
 
+## Build Command-T
+
+Switch to the `~/.vim/bundle/command-t` and build the module:
+
+	cd ~/.vim/bundle/command-t
+        ruby extconf.rb
+        make
+
 ## Updating Plugins
 
 	cd ~/.vim
