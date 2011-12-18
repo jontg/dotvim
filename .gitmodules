@@ -10,10 +10,6 @@
 	path = bundle/pathogen
 	url = git://github.com/tpope/vim-pathogen.git
         ignore = untracked
-[submodule "bundle/nerd-commenter"]
-	path = bundle/nerd-commenter
-	url = git://github.com/scrooloose/nerdcommenter.git
-        ignore = untracked
 [submodule "bundle/nerd-tree"]
 	path = bundle/nerd-tree
 	url = git://github.com/scrooloose/nerdtree.git
