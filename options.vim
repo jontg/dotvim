@@ -49,6 +49,10 @@ set hidden
 :set wildmode=longest,list,full
 :set wildmenu
 
+"yankring configuration
+let g:yankring_history_dir = '~/.vim/backup'
+
+
 set backupdir=~/.vim/backup
 set directory=~/.vim/backup
 set undodir=~/.vim/backup
