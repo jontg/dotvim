@@ -41,3 +41,10 @@ function LatexAndView()
 :   endif
 :endfunction
 :map <F5> :call SwitchToFileMate() <CR>
+
+" Mess with directional keys, training away their use
+"  and making them useful in a different way.
+map <left> <ESC>:NERDTreeToggle<CR>
+map <right> <ESC>:NERDTreeToggle<CR>
+map <up> <ESC>:bp<CR>
+map <down> <ESC>:bn<CR>
