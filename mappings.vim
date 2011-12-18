@@ -1,12 +1,15 @@
+let mapleader = ","
+
+nnoremap <leader><space> :noh<cr>
+
+"toggle spell checking
+:map <F2> :set spell! <CR>
+
+"toggle highlighting
+:map <F3> :set hlsearch! <CR>
+
 "next error
 :map <F6> :cn <CR>
-
-"latex and view files
-function LatexAndView()
-:   let root = expand("%:r")
-:   exe ":!pdflatex % && evince " root.".pdf"
-:endfunction
-:noremap <F9> :call LatexAndView() <CR>
 
 "prev buffer
 :map <F11> :tabp <CR>
@@ -14,11 +17,12 @@ function LatexAndView()
 "next buffer
 :map <F12> :tabn <CR>
 
-"toggle highlighting
-:map <F3> :set hlsearch! <CR>
-
-"toggle spell checking
-:map <F2> :set spell! <CR>
+"latex and view files
+function LatexAndView()
+:   let root = expand("%:r")
+:   exe ":!pdflatex % && evince " root.".pdf"
+:endfunction
+:noremap <F9> :call LatexAndView() <CR>
 
 "swtich between header and cpp file
 :function SwitchToFileMate()
@@ -37,6 +41,3 @@ function LatexAndView()
 :   endif
 :endfunction
 :map <F5> :call SwitchToFileMate() <CR>
-
-"force tabs
-:cab e tabe

@@ -11,26 +11,15 @@ call pathogen#helptags()
 :source $HOME/.vim/autofile.vim
 :source $HOME/.vim/mappings.vim
 ":set syntax=adamg 
-"syntax enable
-"set background=dark
-colorscheme solarized
+syntax enable
 
-" toggle between .cpp and .h
-"map <F4> :e %:p:s,.h$,.X123X,:s,.cpp$,.h,:s,.X123X$,.cpp,<CR>
-" set buffers to be hidden, so that modify in parallel
-set hidden
-" map toggle between the open buffers to F3
+if has('gui_running')
+    colorscheme solarized
+    call togglebg#map("<F4>")
+    set background=light
+endif
 
 :hi Comment ctermfg=darkmagenta
-
-let mapleader = ","
-
 " Adding command 'M' to for highliting
 highlight myHighlightGroup ctermbg=darkgreen guibg=darkgreen
 command -nargs=1 M mat myHighlightGroup /\c<args>/
-nnoremap <leader><space> :noh<cr>
-
-set backupdir=~/.vim/backup
-set directory=~/.vim/backup
-set undodir=~/.vim/backup
-set undofile

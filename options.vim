@@ -39,6 +39,17 @@
 "text width
 :set textwidth=192
 
+"force tabs
+:cab e tabe
+
+" set buffers to be hidden, so that modify in parallel
+set hidden
+
 "tab completion
 :set wildmode=longest,list,full
 :set wildmenu
+
+set backupdir=~/.vim/backup
+set directory=~/.vim/backup
+set undodir=~/.vim/backup
+set undofile
