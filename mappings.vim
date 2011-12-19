@@ -48,3 +48,10 @@ map <left> <ESC>:NERDTreeToggle<CR>
 map <right> <ESC>:NERDTreeToggle<CR>
 map <up> <ESC>:bp<CR>
 map <down> <ESC>:bn<CR>
+
+"""""""""""""""""""""""""""""""""
+" Cope
+"""""""""""""""""""""""""""""""""
+map <leader>cc :botright cope<CR>
+map <leader>p :cp<CR>
+map <leader>n :cn<CR>
