@@ -52,7 +52,7 @@ set hidden
 "yankring configuration
 let g:yankring_history_dir = '~/.vim/backup'
 
-
+set tildeop
 set backupdir=~/.vim/backup
 set directory=~/.vim/backup
 set undodir=~/.vim/backup
