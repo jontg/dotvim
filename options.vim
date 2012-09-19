@@ -20,7 +20,7 @@
 :set ruler
 
 "set up indentation
-:set ts=8 hardtabs=8 shiftwidth=4 softtabstop=4
+:set ts=2 hardtabs=2 shiftwidth=2 softtabstop=2
 :set expandtab
 "autoindent when autocommand doesn't install cindent
 :set autoindent
@@ -40,7 +40,7 @@
 :set textwidth=192
 
 "force tabs
-:cab e tabe
+":cab e tabe
 
 " set buffers to be hidden, so that modify in parallel
 set hidden
@@ -48,6 +48,9 @@ set hidden
 "tab completion
 :set wildmode=longest,list,full
 :set wildmenu
+
+"indent guides
+let g:indent_guides_enable_on_vim_startup = 1
 
 "yankring configuration
 let g:yankring_history_dir = '~/.vim/backup'
