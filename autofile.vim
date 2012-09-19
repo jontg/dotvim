@@ -21,3 +21,7 @@
 ":endfunction 
 
 autocmd FileType ruby setlocal ts=2 sts=2 sw=2 noexpandtab
+
+autocmd FileType nerdtree cnoreabbrev <buffer> bd <nop>
+autocmd FileType nerdtree cnoreabbrev <buffer> bp <nop>
+autocmd FileType nerdtree cnoreabbrev <buffer> bn <nop>
