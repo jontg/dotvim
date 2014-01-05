@@ -42,3 +42,6 @@ ping me.
 [tauceti]: https://github.com/tauceti
 [tim pope]: https://github.com/tpope
 [pathogen]: https://github.com/tpope/vim-pathogen
+
+[![Analytics](https://ga-beacon.appspot.com/UA-46850189-1/dotvim/README.md)](https://github.com/igrigorik/ga-beacon)
+
