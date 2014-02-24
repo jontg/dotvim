@@ -52,3 +52,9 @@
 [submodule "bundle/indent-guides"]
 	path = bundle/indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides.git
+[submodule "bundle/dash.vim"]
+	path = bundle/dash.vim
+	url = https://github.com/rizzatti/dash.vim.git
+[submodule "bundle/funcoo.vim"]
+	path = bundle/funcoo.vim
+	url = https://github.com/rizzatti/funcoo.vim.git
