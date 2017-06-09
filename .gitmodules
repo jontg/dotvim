@@ -10,3 +10,9 @@
 [submodule "bundle/typescript-vim"]
 	path = bundle/typescript-vim
 	url = git@github.com:leafgarland/typescript-vim
+[submodule "bundle/editorconfig-vim"]
+	path = bundle/editorconfig-vim
+	url = git@github.com:editorconfig/editorconfig-vim
+[submodule "bundle/ale"]
+	path = bundle/ale
+	url = git@github.com:w0rp/ale
