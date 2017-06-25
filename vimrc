@@ -12,9 +12,14 @@ if has('gui_running')
     colorscheme solarized
     call togglebg#map("<F4>")
     set background=light
+    set macligatures
+    set guifont=Fira\ Code:h12
 endif
 
 :hi Comment ctermfg=darkmagenta
 " Adding command 'M' to for highliting
 highlight myHighlightGroup ctermbg=darkgreen guibg=darkgreen
 command -nargs=1 M mat myHighlightGroup /\c<args>/
+
+autocmd bufwritepost *.js silent !standard --fix %
+set autoread

@@ -33,6 +33,7 @@
 
 "force tabs
 ":cab e tabe
+set autoindent
 
 " set buffers to be hidden, so that modify in parallel
 set hidden
