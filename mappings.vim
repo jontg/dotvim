@@ -24,7 +24,7 @@ function LatexAndView()
 :endfunction
 :noremap <F9> :call LatexAndView() <CR>
 
-"swtich between header and cpp file
+"switch between header and cpp file
 :function SwitchToFileMate()
 :   let root = expand("%:r")
 :   let ext = expand("%:e")
