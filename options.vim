@@ -62,3 +62,18 @@ let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
 let g:netrw_altv = 1
 let g:netrw_winsize = 25
+
+let g:ale_linters = {
+\   'javascript': ['eslint'],
+\   'typescript': ['tslint'],
+\}
+
+let g:ale_fixers = {
+\   'javascript': [
+\     'remove_trailing_lines',
+\     'eslint'
+\    ],
+\   'typescript': [
+\     'remove_trailing_lines'
+\    ],
+\}
