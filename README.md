@@ -1,7 +1,12 @@
 Setup
 =====
 
-There are a couple of steps to this setup; first, install [Fira Code](https://github.com/tonsky/FiraCode), perhaps
+There are a couple of steps to this setup; first, install a modern version of vim (and optionally MacVim)...
+```bash
+brew install macvim --override-system-vim
+brew linkapps
+```
+next, install [Fira Code](https://github.com/tonsky/FiraCode), perhaps
 via `brew`:
 ```bash
 brew cask install font-fira-code
