@@ -8,12 +8,15 @@ syntax on
 :source $HOME/.vim/mappings.vim
 ":set syntax=adamg 
 
+set background=dark
+
 if has('gui_running')
-    colorscheme solarized
-    call togglebg#map("<F4>")
-    set background=light
     set macligatures
     set guifont=Fira\ Code:h12
+    colorscheme solarized
+    let g:solarized_contrast="high"
+    let g:solarized_termtrans=1
+    let g:solarized_termcolors=256
 endif
 
 :hi Comment ctermfg=darkmagenta

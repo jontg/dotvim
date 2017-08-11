@@ -8,6 +8,9 @@ nnoremap <leader><space> :noh<cr>
 "toggle highlighting
 :map <F3> :set hlsearch! <CR>
 
+"toggle background
+call togglebg#map("<F4>")
+
 "next error
 :map <F6> :cn <CR>
 

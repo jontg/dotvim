@@ -9,4 +9,5 @@ autocmd FileType typescript :set makeprg=tsc
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
 
+autocmd BufWritePost *.js silent !standard --fix %
 autocmd BufWritePost *.ts,*.tsx,*.js,*.jsx,*.py ALEFix
