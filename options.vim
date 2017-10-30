@@ -64,10 +64,10 @@ let g:netrw_altv = 1
 let g:netrw_winsize = 25
 
 let g:ale_completion_enabled = 1
-
+"let g:ale_fix_on_save = 1
 let g:ale_linters = {
 \   'javascript': ['eslint'],
-\   'typescript': ['eslint'],
+\   'typescript': ['prettier'],
 \}
 
 let g:ale_fixers = {
