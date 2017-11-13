@@ -8,7 +8,7 @@ syntax on
 :source $HOME/.vim/mappings.vim
 ":set syntax=adamg 
 
-set background=dark
+set background=light
 
 if has('gui_running')
     set macligatures
@@ -24,5 +24,4 @@ endif
 highlight myHighlightGroup ctermbg=darkgreen guibg=darkgreen
 command -nargs=1 M mat myHighlightGroup /\c<args>/
 
-autocmd bufwritepost *.js silent !standard --fix %
 set autoread

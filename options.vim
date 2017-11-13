@@ -80,3 +80,6 @@ let g:ale_fixers = {
 \     'prettier'
 \    ],
 \}
+
+"\     'remove_trailing_lines',
+"\     'eslint'
