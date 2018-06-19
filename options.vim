@@ -83,3 +83,5 @@ let g:ale_fixers = {
 
 "\     'remove_trailing_lines',
 "\     'eslint'
+
+let g:jsonnet_fmt_options = '--in-place --indent 4 --string-style d'
