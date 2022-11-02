@@ -4,13 +4,13 @@ Setup
 There are a couple of steps to this setup; first, install a modern version of vim (and optionally MacVim)...
 ```bash
 brew install macvim
-brew linkapps
+ln -Fs `find /usr/local -name "MacVim.app"` /Applications/MacVim.app
 ```
 next, install [Fira Code](https://github.com/tonsky/FiraCode), perhaps
 via `brew`:
 ```bash
-brew tap homebrew/fonts
-brew cask install font-fira-code
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code
 ```
 and then clone this branch of the repo:
 ```bash
