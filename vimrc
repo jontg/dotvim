@@ -6,7 +6,6 @@ syntax on
 :source $HOME/.vim/options.vim
 :source $HOME/.vim/autofile.vim
 :source $HOME/.vim/mappings.vim
-":set syntax=adamg 
 
 set background=light
 

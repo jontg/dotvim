@@ -64,7 +64,7 @@ let g:netrw_altv = 1
 let g:netrw_winsize = 25
 
 let g:ale_completion_enabled = 1
-"let g:ale_fix_on_save = 1
+let g:ale_fix_on_save = 1
 let g:ale_linters = {
 \   'javascript': ['eslint'],
 \   'typescript': ['prettier'],
@@ -78,6 +78,19 @@ let g:ale_fixers = {
 \   'typescript': [
 \     'remove_trailing_lines',
 \     'prettier'
+\    ],
+\   'typescriptreact': [
+\     'remove_trailing_lines',
+\     'prettier'
+\    ],
+\    'python': [
+\     'remove_trailing_lines'
+\    ],
+\    'json': [
+\     'remove_trailing_lines'
+\    ],
+\    'terraform': [
+\     'terraform'
 \    ],
 \}
 
