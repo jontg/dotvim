@@ -5,7 +5,7 @@ autocmd FileType nerdtree cnoreabbrev <buffer> bn <nop>
 autocmd FileType typescript,typescriptreact JsPreTmpl html
 autocmd FileType typescript syn clear foldBraces
 autocmd FileType typescript,typescriptreact :set makeprg=tsc
-autocmd FileType typescript,typescriptreact :set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
+autocmd FileType terraform,typescript,typescriptreact :set tabstop=8 softtabstop=0 expandtab shiftwidth=2 smarttab
 
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
