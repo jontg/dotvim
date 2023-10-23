@@ -10,5 +10,7 @@ autocmd FileType terraform,typescript,typescriptreact :set tabstop=8 softtabstop
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
 
+autocmd BufNewFile,BufRead *.tf,*.tf.prod,*.tf.staging set filetype=terraform | set syntax=tf
+
 autocmd BufWritePost *.js silent !standard --fix %
-autocmd BufWritePost *.tf,*.ts,*.tsx,*.js,*.jsx,*.json,*.py ALEFix
+autocmd BufWritePost *.tf,*.hcl,*.ts,*.tsx,*.js,*.jsx,*.json,*.py ALEFix
